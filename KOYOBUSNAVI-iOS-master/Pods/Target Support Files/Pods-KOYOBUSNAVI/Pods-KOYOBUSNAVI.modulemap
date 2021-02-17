@@ -1,0 +1,6 @@
+framework module Pods_KOYOBUSNAVI {
+  umbrella header "Pods-KOYOBUSNAVI-umbrella.h"
+
+  export *
+  module * { export * }
+}

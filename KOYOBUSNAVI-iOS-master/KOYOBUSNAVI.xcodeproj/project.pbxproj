@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15318FA84F84470CF1C0C987 /* Pods_KOYOBUSNAVI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BE491EEE70AA66585098F3 /* Pods_KOYOBUSNAVI.framework */; };
+		32C2E85248D1C93BAA7ECB62 /* Pods_KOYOBUSNAVIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DA8775CF2B82511D0CC8B9 /* Pods_KOYOBUSNAVIUITests.framework */; };
+		4C60CB2E51C904354C1BB953 /* Pods_KOYOBUSNAVITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C95A2C70993EF3A461FC4A9 /* Pods_KOYOBUSNAVITests.framework */; };
+		CD19CAF71E930C2D0041A60D /* bus1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CAF61E930C2C0041A60D /* bus1.png */; };
+		CD19CAF91E930C6D0041A60D /* bus1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CAF81E930C6D0041A60D /* bus1.png */; };
+		CD19CAFB1E930E620041A60D /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CAFA1E930E620041A60D /* news.png */; };
+		CD19CAFD1E930F750041A60D /* news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CAFC1E930F750041A60D /* news@2x.png */; };
+		CD19CAFF1E9315EA0041A60D /* busicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CAFE1E9315EA0041A60D /* busicon.png */; };
+		CD19CB011E9316500041A60D /* busicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CB001E9316500041A60D /* busicon@2x.png */; };
+		CD19CB031E9373500041A60D /* icon in Resources */ = {isa = PBXBuildFile; fileRef = CD19CB021E93734F0041A60D /* icon */; };
+		CD19CB051E9382290041A60D /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = CD19CB041E9382290041A60D /* launch.png */; };
+		CD7B789B1E5C931900A9B43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B789A1E5C931900A9B43E /* AppDelegate.swift */; };
+		CD7B789D1E5C931900A9B43E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B789C1E5C931900A9B43E /* FirstViewController.swift */; };
+		CD7B789F1E5C931900A9B43E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B789E1E5C931900A9B43E /* SecondViewController.swift */; };
+		CD7B78A21E5C931900A9B43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B78A01E5C931900A9B43E /* Main.storyboard */; };
+		CD7B78A41E5C931900A9B43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7B78A31E5C931900A9B43E /* Assets.xcassets */; };
+		CD7B78A71E5C931900A9B43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B78A51E5C931900A9B43E /* LaunchScreen.storyboard */; };
+		CD7B78B21E5C931A00A9B43E /* KOYOBUSNAVITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B78B11E5C931A00A9B43E /* KOYOBUSNAVITests.swift */; };
+		CD7B78BD1E5C931A00A9B43E /* KOYOBUSNAVIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B78BC1E5C931A00A9B43E /* KOYOBUSNAVIUITests.swift */; };
+		CD95C9D21E609D4B00C9B349 /* AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec in Resources */ = {isa = PBXBuildFile; fileRef = CD95C9D11E609D4B00C9B349 /* AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec */; };
+		CD95C9D41E609F4400C9B349 /* AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea in Resources */ = {isa = PBXBuildFile; fileRef = CD95C9D31E609F4400C9B349 /* AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea */; };
+		CDB56EB91E6292EA00EE4A70 /* AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5 in Resources */ = {isa = PBXBuildFile; fileRef = CDB56EB81E6292E900EE4A70 /* AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5 */; };
+		CDC6E4061E5D9828007B1B19 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6E4051E5D9828007B1B19 /* ThirdViewController.swift */; };
+		CDC6E40C1E5D9D42007B1B19 /* university.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC6E40B1E5D9D42007B1B19 /* university.png */; };
+		CDC6E4121E5DB7A7007B1B19 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC6E4111E5DB7A7007B1B19 /* icon.png */; };
+		CDC6E4161E5DB80F007B1B19 /* text-lines (1).png in Resources */ = {isa = PBXBuildFile; fileRef = CDC6E4151E5DB80F007B1B19 /* text-lines (1).png */; };
+		CDC6E4181E5DB854007B1B19 /* high-school.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC6E4171E5DB854007B1B19 /* high-school.png */; };
+		CDCB252E1E619C62007B26C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDCB252D1E619C62007B26C5 /* GoogleService-Info.plist */; };
+		CDD07C811E5F3D8D00C3AC1F /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD07C7F1E5F3D8D00C3AC1F /* bus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7B78AE1E5C931A00A9B43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7B788F1E5C931800A9B43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7B78961E5C931800A9B43E;
+			remoteInfo = KOYOBUSNAVI;
+		};
+		CD7B78B91E5C931A00A9B43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7B788F1E5C931800A9B43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7B78961E5C931800A9B43E;
+			remoteInfo = KOYOBUSNAVI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42C89A46277062CEC60DF142 /* Pods-KOYOBUSNAVITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOYOBUSNAVITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOYOBUSNAVITests/Pods-KOYOBUSNAVITests.release.xcconfig"; sourceTree = "<group>"; };
+		42D6A213DDA2B5397EA7BB9B /* Pods-KOYOBUSNAVITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOYOBUSNAVITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOYOBUSNAVITests/Pods-KOYOBUSNAVITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C95A2C70993EF3A461FC4A9 /* Pods_KOYOBUSNAVITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOYOBUSNAVITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F832494F0D79EDA73342243 /* Pods-KOYOBUSNAVIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOYOBUSNAVIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOYOBUSNAVIUITests/Pods-KOYOBUSNAVIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98DA8775CF2B82511D0CC8B9 /* Pods_KOYOBUSNAVIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOYOBUSNAVIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997C7186EE953B2AB0DBBD18 /* Pods-KOYOBUSNAVIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOYOBUSNAVIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOYOBUSNAVIUITests/Pods-KOYOBUSNAVIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A2EA28970A47822270E13F /* Pods-KOYOBUSNAVI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOYOBUSNAVI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOYOBUSNAVI/Pods-KOYOBUSNAVI.debug.xcconfig"; sourceTree = "<group>"; };
+		B9BE491EEE70AA66585098F3 /* Pods_KOYOBUSNAVI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOYOBUSNAVI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD19CAF61E930C2C0041A60D /* bus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus1.png; path = icon/bus1.png; sourceTree = SOURCE_ROOT; };
+		CD19CAF81E930C6D0041A60D /* bus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus1.png; path = icon/bus1.png; sourceTree = SOURCE_ROOT; };
+		CD19CAFA1E930E620041A60D /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = news.png; path = icon/news.png; sourceTree = SOURCE_ROOT; };
+		CD19CAFC1E930F750041A60D /* news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "news@2x.png"; path = "icon/news@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD19CAFE1E9315EA0041A60D /* busicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = busicon.png; path = icon/busicon.png; sourceTree = SOURCE_ROOT; };
+		CD19CB001E9316500041A60D /* busicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "busicon@2x.png"; path = "icon/busicon@2x.png"; sourceTree = SOURCE_ROOT; };
+		CD19CB021E93734F0041A60D /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icon; path = ../../Develop/Old_Backup/icon; sourceTree = "<group>"; };
+		CD19CB041E9382290041A60D /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../../Develop/Old_Backup/launch.png; sourceTree = "<group>"; };
+		CD5391F91F73EE0700D38BBD /* bus (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bus (1).png"; sourceTree = "<group>"; };
+		CD7B78971E5C931900A9B43E /* KOYOBUSNAVI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOYOBUSNAVI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B789A1E5C931900A9B43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7B789C1E5C931900A9B43E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD7B789E1E5C931900A9B43E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CD7B78A11E5C931900A9B43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7B78A31E5C931900A9B43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7B78A61E5C931900A9B43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7B78A81E5C931A00A9B43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B78AD1E5C931A00A9B43E /* KOYOBUSNAVITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOYOBUSNAVITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B78B11E5C931A00A9B43E /* KOYOBUSNAVITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOYOBUSNAVITests.swift; sourceTree = "<group>"; };
+		CD7B78B31E5C931A00A9B43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7B78B81E5C931A00A9B43E /* KOYOBUSNAVIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOYOBUSNAVIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7B78BC1E5C931A00A9B43E /* KOYOBUSNAVIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KOYOBUSNAVIUITests.swift; sourceTree = "<group>"; };
+		CD7B78BE1E5C931A00A9B43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD95C9D11E609D4B00C9B349 /* AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec; path = ../../Develop/Old_Backup/AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec; sourceTree = "<group>"; };
+		CD95C9D31E609F4400C9B349 /* AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea; path = ../../Develop/Old_Backup/AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea; sourceTree = "<group>"; };
+		CDB56EB81E6292E900EE4A70 /* AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5; path = ../../Develop/Old_Backup/AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5; sourceTree = "<group>"; };
+		CDC6E4051E5D9828007B1B19 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		CDC6E40B1E5D9D42007B1B19 /* university.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = university.png; path = ../../Develop/Old_Backup/university.png; sourceTree = "<group>"; };
+		CDC6E4111E5DB7A7007B1B19 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../Develop/Old_Backup/icon.png; sourceTree = "<group>"; };
+		CDC6E4151E5DB80F007B1B19 /* text-lines (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "text-lines (1).png"; path = "../../Develop/Old_Backup/text-lines (1).png"; sourceTree = "<group>"; };
+		CDC6E4171E5DB854007B1B19 /* high-school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "high-school.png"; path = "../../Develop/Old_Backup/high-school.png"; sourceTree = "<group>"; };
+		CDC6E41B1E5DBA3C007B1B19 /* KOYOBUSNAVI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KOYOBUSNAVI.entitlements; sourceTree = "<group>"; };
+		CDCB252D1E619C62007B26C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Develop/Old_Backup/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDD07C7F1E5F3D8D00C3AC1F /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = ../../Develop/Old_Backup/bus.png; sourceTree = "<group>"; };
+		D594C6B888DC684CF5BA8DC7 /* Pods-KOYOBUSNAVI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOYOBUSNAVI.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOYOBUSNAVI/Pods-KOYOBUSNAVI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7B78941E5C931800A9B43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15318FA84F84470CF1C0C987 /* Pods_KOYOBUSNAVI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B78AA1E5C931A00A9B43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C60CB2E51C904354C1BB953 /* Pods_KOYOBUSNAVITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B78B51E5C931A00A9B43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C2E85248D1C93BAA7ECB62 /* Pods_KOYOBUSNAVIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D802BFC56A9ACCF6731A4EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9BE491EEE70AA66585098F3 /* Pods_KOYOBUSNAVI.framework */,
+				4C95A2C70993EF3A461FC4A9 /* Pods_KOYOBUSNAVITests.framework */,
+				98DA8775CF2B82511D0CC8B9 /* Pods_KOYOBUSNAVIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C78EF0E9182DCBE67F6C9E72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2EA28970A47822270E13F /* Pods-KOYOBUSNAVI.debug.xcconfig */,
+				D594C6B888DC684CF5BA8DC7 /* Pods-KOYOBUSNAVI.release.xcconfig */,
+				42D6A213DDA2B5397EA7BB9B /* Pods-KOYOBUSNAVITests.debug.xcconfig */,
+				42C89A46277062CEC60DF142 /* Pods-KOYOBUSNAVITests.release.xcconfig */,
+				997C7186EE953B2AB0DBBD18 /* Pods-KOYOBUSNAVIUITests.debug.xcconfig */,
+				4F832494F0D79EDA73342243 /* Pods-KOYOBUSNAVIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD7B788E1E5C931700A9B43E = {
+			isa = PBXGroup;
+			children = (
+				CD7B78991E5C931900A9B43E /* KOYOBUSNAVI */,
+				CD7B78B01E5C931A00A9B43E /* KOYOBUSNAVITests */,
+				CD7B78BB1E5C931A00A9B43E /* KOYOBUSNAVIUITests */,
+				CD7B78981E5C931900A9B43E /* Products */,
+				C78EF0E9182DCBE67F6C9E72 /* Pods */,
+				8D802BFC56A9ACCF6731A4EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7B78981E5C931900A9B43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B78971E5C931900A9B43E /* KOYOBUSNAVI.app */,
+				CD7B78AD1E5C931A00A9B43E /* KOYOBUSNAVITests.xctest */,
+				CD7B78B81E5C931A00A9B43E /* KOYOBUSNAVIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7B78991E5C931900A9B43E /* KOYOBUSNAVI */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6E41B1E5DBA3C007B1B19 /* KOYOBUSNAVI.entitlements */,
+				CDC6E4051E5D9828007B1B19 /* ThirdViewController.swift */,
+				CD7B789A1E5C931900A9B43E /* AppDelegate.swift */,
+				CD7B789C1E5C931900A9B43E /* FirstViewController.swift */,
+				CD7B789E1E5C931900A9B43E /* SecondViewController.swift */,
+				CD7B78A01E5C931900A9B43E /* Main.storyboard */,
+				CD19CAFA1E930E620041A60D /* news.png */,
+				CD19CAF61E930C2C0041A60D /* bus1.png */,
+				CD5391F91F73EE0700D38BBD /* bus (1).png */,
+				CD19CAFE1E9315EA0041A60D /* busicon.png */,
+				CDD07C7F1E5F3D8D00C3AC1F /* bus.png */,
+				CDC6E4151E5DB80F007B1B19 /* text-lines (1).png */,
+				CD19CAF81E930C6D0041A60D /* bus1.png */,
+				CD19CB001E9316500041A60D /* busicon@2x.png */,
+				CDC6E40B1E5D9D42007B1B19 /* university.png */,
+				CDC6E4111E5DB7A7007B1B19 /* icon.png */,
+				CDC6E4171E5DB854007B1B19 /* high-school.png */,
+				CD19CB041E9382290041A60D /* launch.png */,
+				CD19CAFC1E930F750041A60D /* news@2x.png */,
+				CD19CB021E93734F0041A60D /* icon */,
+				CDB56EB81E6292E900EE4A70 /* AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5 */,
+				CD7B78A31E5C931900A9B43E /* Assets.xcassets */,
+				CD7B78A51E5C931900A9B43E /* LaunchScreen.storyboard */,
+				CDCB252D1E619C62007B26C5 /* GoogleService-Info.plist */,
+				CD7B78A81E5C931A00A9B43E /* Info.plist */,
+				CD95C9D31E609F4400C9B349 /* AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea */,
+				CD95C9D11E609D4B00C9B349 /* AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec */,
+			);
+			path = KOYOBUSNAVI;
+			sourceTree = "<group>";
+		};
+		CD7B78B01E5C931A00A9B43E /* KOYOBUSNAVITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B78B11E5C931A00A9B43E /* KOYOBUSNAVITests.swift */,
+				CD7B78B31E5C931A00A9B43E /* Info.plist */,
+			);
+			path = KOYOBUSNAVITests;
+			sourceTree = "<group>";
+		};
+		CD7B78BB1E5C931A00A9B43E /* KOYOBUSNAVIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B78BC1E5C931A00A9B43E /* KOYOBUSNAVIUITests.swift */,
+				CD7B78BE1E5C931A00A9B43E /* Info.plist */,
+			);
+			path = KOYOBUSNAVIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7B78961E5C931800A9B43E /* KOYOBUSNAVI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B78C11E5C931A00A9B43E /* Build configuration list for PBXNativeTarget "KOYOBUSNAVI" */;
+			buildPhases = (
+				A82416F1727BB63DD97174A0 /* [CP] Check Pods Manifest.lock */,
+				CD7B78941E5C931800A9B43E /* Frameworks */,
+				CD7B78931E5C931800A9B43E /* Sources */,
+				CD7B78951E5C931800A9B43E /* Resources */,
+				B02FD595CF0DBA92D5D723D4 /* [CP] Embed Pods Frameworks */,
+				1DBA51BC15C9339E95E727EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOYOBUSNAVI;
+			productName = KOYOBUSNAVI;
+			productReference = CD7B78971E5C931900A9B43E /* KOYOBUSNAVI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7B78AC1E5C931A00A9B43E /* KOYOBUSNAVITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B78C41E5C931A00A9B43E /* Build configuration list for PBXNativeTarget "KOYOBUSNAVITests" */;
+			buildPhases = (
+				856A6F24E8944ECA096F596D /* [CP] Check Pods Manifest.lock */,
+				CD7B78A91E5C931A00A9B43E /* Sources */,
+				CD7B78AA1E5C931A00A9B43E /* Frameworks */,
+				CD7B78AB1E5C931A00A9B43E /* Resources */,
+				BECF69E66EE1925C29F9B5B2 /* [CP] Embed Pods Frameworks */,
+				1F829DFA7323B022E8D2C12F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7B78AF1E5C931A00A9B43E /* PBXTargetDependency */,
+			);
+			name = KOYOBUSNAVITests;
+			productName = KOYOBUSNAVITests;
+			productReference = CD7B78AD1E5C931A00A9B43E /* KOYOBUSNAVITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD7B78B71E5C931A00A9B43E /* KOYOBUSNAVIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7B78C71E5C931A00A9B43E /* Build configuration list for PBXNativeTarget "KOYOBUSNAVIUITests" */;
+			buildPhases = (
+				DB4F123CB120A9769433CB3B /* [CP] Check Pods Manifest.lock */,
+				CD7B78B41E5C931A00A9B43E /* Sources */,
+				CD7B78B51E5C931A00A9B43E /* Frameworks */,
+				CD7B78B61E5C931A00A9B43E /* Resources */,
+				015C463E08C38D1ECD352632 /* [CP] Embed Pods Frameworks */,
+				6482F5FD0321265B2621C435 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7B78BA1E5C931A00A9B43E /* PBXTargetDependency */,
+			);
+			name = KOYOBUSNAVIUITests;
+			productName = KOYOBUSNAVIUITests;
+			productReference = CD7B78B81E5C931A00A9B43E /* KOYOBUSNAVIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7B788F1E5C931800A9B43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = EndoMotoki;
+				TargetAttributes = {
+					CD7B78961E5C931800A9B43E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84LQ37T2QF;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CD7B78AC1E5C931A00A9B43E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84LQ37T2QF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD7B78961E5C931800A9B43E;
+					};
+					CD7B78B71E5C931A00A9B43E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 84LQ37T2QF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD7B78961E5C931800A9B43E;
+					};
+				};
+			};
+			buildConfigurationList = CD7B78921E5C931800A9B43E /* Build configuration list for PBXProject "KOYOBUSNAVI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7B788E1E5C931700A9B43E;
+			productRefGroup = CD7B78981E5C931900A9B43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7B78961E5C931800A9B43E /* KOYOBUSNAVI */,
+				CD7B78AC1E5C931A00A9B43E /* KOYOBUSNAVITests */,
+				CD7B78B71E5C931A00A9B43E /* KOYOBUSNAVIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7B78951E5C931800A9B43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB56EB91E6292EA00EE4A70 /* AppIconResizer_201702260436_9cc292547c23734a3c65a798c965c3d5 in Resources */,
+				CDCB252E1E619C62007B26C5 /* GoogleService-Info.plist in Resources */,
+				CD19CB011E9316500041A60D /* busicon@2x.png in Resources */,
+				CD19CAFB1E930E620041A60D /* news.png in Resources */,
+				CD19CAFD1E930F750041A60D /* news@2x.png in Resources */,
+				CDC6E4121E5DB7A7007B1B19 /* icon.png in Resources */,
+				CD19CB051E9382290041A60D /* launch.png in Resources */,
+				CD19CAF71E930C2D0041A60D /* bus1.png in Resources */,
+				CD19CAF91E930C6D0041A60D /* bus1.png in Resources */,
+				CD95C9D21E609D4B00C9B349 /* AppIconResizer_201702241656_864e7d5e59f03b121019c3aae5b70fec in Resources */,
+				CD7B78A71E5C931900A9B43E /* LaunchScreen.storyboard in Resources */,
+				CDC6E4161E5DB80F007B1B19 /* text-lines (1).png in Resources */,
+				CDD07C811E5F3D8D00C3AC1F /* bus.png in Resources */,
+				CDC6E40C1E5D9D42007B1B19 /* university.png in Resources */,
+				CD19CAFF1E9315EA0041A60D /* busicon.png in Resources */,
+				CD19CB031E9373500041A60D /* icon in Resources */,
+				CD7B78A41E5C931900A9B43E /* Assets.xcassets in Resources */,
+				CD95C9D41E609F4400C9B349 /* AppIconResizer_201702241704_2c3bd38fa3d4a506c03b993c0fd446ea in Resources */,
+				CD7B78A21E5C931900A9B43E /* Main.storyboard in Resources */,
+				CDC6E4181E5DB854007B1B19 /* high-school.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B78AB1E5C931A00A9B43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B78B61E5C931A00A9B43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015C463E08C38D1ECD352632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVIUITests/Pods-KOYOBUSNAVIUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVIUITests/Pods-KOYOBUSNAVIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DBA51BC15C9339E95E727EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVI/Pods-KOYOBUSNAVI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F829DFA7323B022E8D2C12F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVITests/Pods-KOYOBUSNAVITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6482F5FD0321265B2621C435 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVIUITests/Pods-KOYOBUSNAVIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		856A6F24E8944ECA096F596D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOYOBUSNAVITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82416F1727BB63DD97174A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOYOBUSNAVI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02FD595CF0DBA92D5D723D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVI/Pods-KOYOBUSNAVI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVI/Pods-KOYOBUSNAVI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECF69E66EE1925C29F9B5B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVITests/Pods-KOYOBUSNAVITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOYOBUSNAVITests/Pods-KOYOBUSNAVITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB4F123CB120A9769433CB3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOYOBUSNAVIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7B78931E5C931800A9B43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B789F1E5C931900A9B43E /* SecondViewController.swift in Sources */,
+				CD7B789B1E5C931900A9B43E /* AppDelegate.swift in Sources */,
+				CDC6E4061E5D9828007B1B19 /* ThirdViewController.swift in Sources */,
+				CD7B789D1E5C931900A9B43E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B78A91E5C931A00A9B43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B78B21E5C931A00A9B43E /* KOYOBUSNAVITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7B78B41E5C931A00A9B43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7B78BD1E5C931A00A9B43E /* KOYOBUSNAVIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7B78AF1E5C931A00A9B43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7B78961E5C931800A9B43E /* KOYOBUSNAVI */;
+			targetProxy = CD7B78AE1E5C931A00A9B43E /* PBXContainerItemProxy */;
+		};
+		CD7B78BA1E5C931A00A9B43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7B78961E5C931800A9B43E /* KOYOBUSNAVI */;
+			targetProxy = CD7B78B91E5C931A00A9B43E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7B78A01E5C931900A9B43E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B78A11E5C931900A9B43E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7B78A51E5C931900A9B43E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7B78A61E5C931900A9B43E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7B78BF1E5C931A00A9B43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7B78C01E5C931A00A9B43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7B78C21E5C931A00A9B43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A2EA28970A47822270E13F /* Pods-KOYOBUSNAVI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KOYOBUSNAVI/KOYOBUSNAVI.entitlements;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = KOYOBUSNAVI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquacentral.KOYOBUSNAVI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7B78C31E5C931A00A9B43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D594C6B888DC684CF5BA8DC7 /* Pods-KOYOBUSNAVI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KOYOBUSNAVI/KOYOBUSNAVI.entitlements;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = KOYOBUSNAVI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquacentral.KOYOBUSNAVI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7B78C51E5C931A00A9B43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D6A213DDA2B5397EA7BB9B /* Pods-KOYOBUSNAVITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = KOYOBUSNAVITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquacentral.KOYOBUSNAVITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOYOBUSNAVI.app/KOYOBUSNAVI";
+			};
+			name = Debug;
+		};
+		CD7B78C61E5C931A00A9B43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C89A46277062CEC60DF142 /* Pods-KOYOBUSNAVITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = KOYOBUSNAVITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquacentral.KOYOBUSNAVITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOYOBUSNAVI.app/KOYOBUSNAVI";
+			};
+			name = Release;
+		};
+		CD7B78C81E5C931A00A9B43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997C7186EE953B2AB0DBBD18 /* Pods-KOYOBUSNAVIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = KOYOBUSNAVIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquacentral.KOYOBUSNAVIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KOYOBUSNAVI;
+			};
+			name = Debug;
+		};
+		CD7B78C91E5C931A00A9B43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F832494F0D79EDA73342243 /* Pods-KOYOBUSNAVIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = KOYOBUSNAVIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aquacentral.KOYOBUSNAVIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KOYOBUSNAVI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7B78921E5C931800A9B43E /* Build configuration list for PBXProject "KOYOBUSNAVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B78BF1E5C931A00A9B43E /* Debug */,
+				CD7B78C01E5C931A00A9B43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B78C11E5C931A00A9B43E /* Build configuration list for PBXNativeTarget "KOYOBUSNAVI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B78C21E5C931A00A9B43E /* Debug */,
+				CD7B78C31E5C931A00A9B43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B78C41E5C931A00A9B43E /* Build configuration list for PBXNativeTarget "KOYOBUSNAVITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B78C51E5C931A00A9B43E /* Debug */,
+				CD7B78C61E5C931A00A9B43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7B78C71E5C931A00A9B43E /* Build configuration list for PBXNativeTarget "KOYOBUSNAVIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7B78C81E5C931A00A9B43E /* Debug */,
+				CD7B78C91E5C931A00A9B43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7B788F1E5C931800A9B43E /* Project object */;
+}
