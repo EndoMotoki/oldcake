@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A176415649346AFF882642A /* Pods_GIPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A84016D7A8FD8A0751E1EA6 /* Pods_GIPUITests.framework */; };
+		7108E762AB6E973E01DB94E6 /* Pods_GIPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4CCE996CF759A9240BF7139 /* Pods_GIPTests.framework */; };
+		8E868FF8FF861BC01BC940DC /* Pods_GIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE8CA46087C462C96FA760 /* Pods_GIP.framework */; };
+		CD68E60720A7229100C7768E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD68E60620A7229100C7768E /* GoogleService-Info.plist */; };
+		CD68E60820A7229100C7768E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD68E60620A7229100C7768E /* GoogleService-Info.plist */; };
+		CD68E60920A7229100C7768E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD68E60620A7229100C7768E /* GoogleService-Info.plist */; };
+		CD68E60B20A7591900C7768E /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = CD68E60A20A7591900C7768E /* Icon-20.png */; };
+		CD68E60D20A7592000C7768E /* Icon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD68E60C20A7592000C7768E /* Icon-20@2x.png */; };
+		CD68E60F20A759D300C7768E /* Sogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD68E60E20A759D200C7768E /* Sogo.png */; };
+		CD68E61120A759E300C7768E /* sogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD68E61020A759E300C7768E /* sogo@2x.png */; };
+		CDADEB532094AD9B0090494B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADEB522094AD9B0090494B /* AppDelegate.swift */; };
+		CDADEB552094AD9B0090494B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADEB542094AD9B0090494B /* FirstViewController.swift */; };
+		CDADEB572094AD9B0090494B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADEB562094AD9B0090494B /* SecondViewController.swift */; };
+		CDADEB5A2094AD9B0090494B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDADEB582094AD9B0090494B /* Main.storyboard */; };
+		CDADEB5C2094AD9D0090494B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDADEB5B2094AD9D0090494B /* Assets.xcassets */; };
+		CDADEB5F2094AD9D0090494B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDADEB5D2094AD9D0090494B /* LaunchScreen.storyboard */; };
+		CDADEB6A2094AD9E0090494B /* GIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADEB692094AD9E0090494B /* GIPTests.swift */; };
+		CDADEB752094AD9E0090494B /* GIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADEB742094AD9E0090494B /* GIPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDADEB662094AD9E0090494B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDADEB472094AD9B0090494B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDADEB4E2094AD9B0090494B;
+			remoteInfo = GIP;
+		};
+		CDADEB712094AD9E0090494B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDADEB472094AD9B0090494B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDADEB4E2094AD9B0090494B;
+			remoteInfo = GIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27BE8CA46087C462C96FA760 /* Pods_GIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A84016D7A8FD8A0751E1EA6 /* Pods_GIPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBB8DDDC17EDA6936120D37 /* Pods-GIPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIPTests/Pods-GIPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90EB640999658FD8D4D91459 /* Pods-GIPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIPUITests/Pods-GIPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3D868AB7C696BBB41980A79 /* Pods-GIPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIPUITests/Pods-GIPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD68E60620A7229100C7768E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD68E60A20A7591900C7768E /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20.png"; sourceTree = "<group>"; };
+		CD68E60C20A7592000C7768E /* Icon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20@2x.png"; sourceTree = "<group>"; };
+		CD68E60E20A759D200C7768E /* Sogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sogo.png; sourceTree = "<group>"; };
+		CD68E61020A759E300C7768E /* sogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sogo@2x.png"; sourceTree = "<group>"; };
+		CDADEB4F2094AD9B0090494B /* GIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDADEB522094AD9B0090494B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDADEB542094AD9B0090494B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CDADEB562094AD9B0090494B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CDADEB592094AD9B0090494B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDADEB5B2094AD9D0090494B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDADEB5E2094AD9D0090494B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDADEB602094AD9D0090494B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDADEB652094AD9E0090494B /* GIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDADEB692094AD9E0090494B /* GIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIPTests.swift; sourceTree = "<group>"; };
+		CDADEB6B2094AD9E0090494B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDADEB702094AD9E0090494B /* GIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDADEB742094AD9E0090494B /* GIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIPUITests.swift; sourceTree = "<group>"; };
+		CDADEB762094AD9E0090494B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDADEB822094ADF60090494B /* GIP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GIP.entitlements; sourceTree = "<group>"; };
+		E4CCE996CF759A9240BF7139 /* Pods_GIPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26720B4FDADD3E14856C505 /* Pods-GIPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIPTests/Pods-GIPTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6DED78BDCD0F6D416B6BC7B /* Pods-GIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIP/Pods-GIP.debug.xcconfig"; sourceTree = "<group>"; };
+		F8F29426D48A9EE7D6A0402C /* Pods-GIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIP/Pods-GIP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDADEB4C2094AD9B0090494B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E868FF8FF861BC01BC940DC /* Pods_GIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDADEB622094AD9E0090494B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7108E762AB6E973E01DB94E6 /* Pods_GIPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDADEB6D2094AD9E0090494B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A176415649346AFF882642A /* Pods_GIPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		690B3F4A18A95C93968E0C95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6DED78BDCD0F6D416B6BC7B /* Pods-GIP.debug.xcconfig */,
+				F8F29426D48A9EE7D6A0402C /* Pods-GIP.release.xcconfig */,
+				3BBB8DDDC17EDA6936120D37 /* Pods-GIPTests.debug.xcconfig */,
+				F26720B4FDADD3E14856C505 /* Pods-GIPTests.release.xcconfig */,
+				B3D868AB7C696BBB41980A79 /* Pods-GIPUITests.debug.xcconfig */,
+				90EB640999658FD8D4D91459 /* Pods-GIPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDADEB462094AD9B0090494B = {
+			isa = PBXGroup;
+			children = (
+				CDADEB512094AD9B0090494B /* GIP */,
+				CDADEB682094AD9E0090494B /* GIPTests */,
+				CDADEB732094AD9E0090494B /* GIPUITests */,
+				CDADEB502094AD9B0090494B /* Products */,
+				690B3F4A18A95C93968E0C95 /* Pods */,
+				DA0522B47C51EA7451A0E590 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDADEB502094AD9B0090494B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDADEB4F2094AD9B0090494B /* GIP.app */,
+				CDADEB652094AD9E0090494B /* GIPTests.xctest */,
+				CDADEB702094AD9E0090494B /* GIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDADEB512094AD9B0090494B /* GIP */ = {
+			isa = PBXGroup;
+			children = (
+				CDADEB822094ADF60090494B /* GIP.entitlements */,
+				CDADEB522094AD9B0090494B /* AppDelegate.swift */,
+				CDADEB542094AD9B0090494B /* FirstViewController.swift */,
+				CDADEB562094AD9B0090494B /* SecondViewController.swift */,
+				CDADEB582094AD9B0090494B /* Main.storyboard */,
+				CDADEB5B2094AD9D0090494B /* Assets.xcassets */,
+				CDADEB5D2094AD9D0090494B /* LaunchScreen.storyboard */,
+				CDADEB602094AD9D0090494B /* Info.plist */,
+				CD68E60620A7229100C7768E /* GoogleService-Info.plist */,
+				CD68E60A20A7591900C7768E /* Icon-20.png */,
+				CD68E60C20A7592000C7768E /* Icon-20@2x.png */,
+				CD68E60E20A759D200C7768E /* Sogo.png */,
+				CD68E61020A759E300C7768E /* sogo@2x.png */,
+			);
+			path = GIP;
+			sourceTree = "<group>";
+		};
+		CDADEB682094AD9E0090494B /* GIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDADEB692094AD9E0090494B /* GIPTests.swift */,
+				CDADEB6B2094AD9E0090494B /* Info.plist */,
+			);
+			path = GIPTests;
+			sourceTree = "<group>";
+		};
+		CDADEB732094AD9E0090494B /* GIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDADEB742094AD9E0090494B /* GIPUITests.swift */,
+				CDADEB762094AD9E0090494B /* Info.plist */,
+			);
+			path = GIPUITests;
+			sourceTree = "<group>";
+		};
+		DA0522B47C51EA7451A0E590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27BE8CA46087C462C96FA760 /* Pods_GIP.framework */,
+				E4CCE996CF759A9240BF7139 /* Pods_GIPTests.framework */,
+				3A84016D7A8FD8A0751E1EA6 /* Pods_GIPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDADEB4E2094AD9B0090494B /* GIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDADEB792094AD9E0090494B /* Build configuration list for PBXNativeTarget "GIP" */;
+			buildPhases = (
+				E970508353EC0F13E74AA5BF /* [CP] Check Pods Manifest.lock */,
+				CDADEB4B2094AD9B0090494B /* Sources */,
+				CDADEB4C2094AD9B0090494B /* Frameworks */,
+				CDADEB4D2094AD9B0090494B /* Resources */,
+				DC3AE9D944499F6C4E6F74E3 /* [CP] Embed Pods Frameworks */,
+				14E66C2870E70B3AD1F9C0F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GIP;
+			productName = GIP;
+			productReference = CDADEB4F2094AD9B0090494B /* GIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDADEB642094AD9E0090494B /* GIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDADEB7C2094AD9E0090494B /* Build configuration list for PBXNativeTarget "GIPTests" */;
+			buildPhases = (
+				5E4ECB7F766200F5ED236D8B /* [CP] Check Pods Manifest.lock */,
+				CDADEB612094AD9E0090494B /* Sources */,
+				CDADEB622094AD9E0090494B /* Frameworks */,
+				CDADEB632094AD9E0090494B /* Resources */,
+				05B8DC0FF569C38AA440730E /* [CP] Embed Pods Frameworks */,
+				3CA3C26106014D5F74363E4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDADEB672094AD9E0090494B /* PBXTargetDependency */,
+			);
+			name = GIPTests;
+			productName = GIPTests;
+			productReference = CDADEB652094AD9E0090494B /* GIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDADEB6F2094AD9E0090494B /* GIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDADEB7F2094AD9E0090494B /* Build configuration list for PBXNativeTarget "GIPUITests" */;
+			buildPhases = (
+				DDE6BF1B4C5FCE641FDCC965 /* [CP] Check Pods Manifest.lock */,
+				CDADEB6C2094AD9E0090494B /* Sources */,
+				CDADEB6D2094AD9E0090494B /* Frameworks */,
+				CDADEB6E2094AD9E0090494B /* Resources */,
+				DEF709C83718465BB0E102D2 /* [CP] Embed Pods Frameworks */,
+				8BDD542BE49B714699D11B4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDADEB722094AD9E0090494B /* PBXTargetDependency */,
+			);
+			name = GIPUITests;
+			productName = GIPUITests;
+			productReference = CDADEB702094AD9E0090494B /* GIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDADEB472094AD9B0090494B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = EndoMotoki;
+				TargetAttributes = {
+					CDADEB4E2094AD9B0090494B = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CDADEB642094AD9E0090494B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CDADEB4E2094AD9B0090494B;
+					};
+					CDADEB6F2094AD9E0090494B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CDADEB4E2094AD9B0090494B;
+					};
+				};
+			};
+			buildConfigurationList = CDADEB4A2094AD9B0090494B /* Build configuration list for PBXProject "GIP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDADEB462094AD9B0090494B;
+			productRefGroup = CDADEB502094AD9B0090494B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDADEB4E2094AD9B0090494B /* GIP */,
+				CDADEB642094AD9E0090494B /* GIPTests */,
+				CDADEB6F2094AD9E0090494B /* GIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDADEB4D2094AD9B0090494B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68E61120A759E300C7768E /* sogo@2x.png in Resources */,
+				CDADEB5F2094AD9D0090494B /* LaunchScreen.storyboard in Resources */,
+				CD68E60F20A759D300C7768E /* Sogo.png in Resources */,
+				CD68E60720A7229100C7768E /* GoogleService-Info.plist in Resources */,
+				CD68E60D20A7592000C7768E /* Icon-20@2x.png in Resources */,
+				CDADEB5C2094AD9D0090494B /* Assets.xcassets in Resources */,
+				CD68E60B20A7591900C7768E /* Icon-20.png in Resources */,
+				CDADEB5A2094AD9B0090494B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDADEB632094AD9E0090494B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68E60820A7229100C7768E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDADEB6E2094AD9E0090494B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68E60920A7229100C7768E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B8DC0FF569C38AA440730E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIPTests/Pods-GIPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14E66C2870E70B3AD1F9C0F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIP/Pods-GIP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA3C26106014D5F74363E4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIPTests/Pods-GIPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E4ECB7F766200F5ED236D8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BDD542BE49B714699D11B4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIPUITests/Pods-GIPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3AE9D944499F6C4E6F74E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GIP/Pods-GIP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIP/Pods-GIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE6BF1B4C5FCE641FDCC965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF709C83718465BB0E102D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIPUITests/Pods-GIPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E970508353EC0F13E74AA5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDADEB4B2094AD9B0090494B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDADEB572094AD9B0090494B /* SecondViewController.swift in Sources */,
+				CDADEB532094AD9B0090494B /* AppDelegate.swift in Sources */,
+				CDADEB552094AD9B0090494B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDADEB612094AD9E0090494B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDADEB6A2094AD9E0090494B /* GIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDADEB6C2094AD9E0090494B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDADEB752094AD9E0090494B /* GIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDADEB672094AD9E0090494B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDADEB4E2094AD9B0090494B /* GIP */;
+			targetProxy = CDADEB662094AD9E0090494B /* PBXContainerItemProxy */;
+		};
+		CDADEB722094AD9E0090494B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDADEB4E2094AD9B0090494B /* GIP */;
+			targetProxy = CDADEB712094AD9E0090494B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDADEB582094AD9B0090494B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDADEB592094AD9B0090494B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDADEB5D2094AD9D0090494B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDADEB5E2094AD9D0090494B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDADEB772094AD9E0090494B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDADEB782094AD9E0090494B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDADEB7A2094AD9E0090494B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DED78BDCD0F6D416B6BC7B /* Pods-GIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GIP/GIP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = GIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmilkyway.GIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDADEB7B2094AD9E0090494B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F29426D48A9EE7D6A0402C /* Pods-GIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GIP/GIP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = GIP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmilkyway.GIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDADEB7D2094AD9E0090494B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBB8DDDC17EDA6936120D37 /* Pods-GIPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = GIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmilkyway.GIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIP.app/GIP";
+			};
+			name = Debug;
+		};
+		CDADEB7E2094AD9E0090494B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26720B4FDADD3E14856C505 /* Pods-GIPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = GIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmilkyway.GIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GIP.app/GIP";
+			};
+			name = Release;
+		};
+		CDADEB802094AD9E0090494B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D868AB7C696BBB41980A79 /* Pods-GIPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = GIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmilkyway.GIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIP;
+			};
+			name = Debug;
+		};
+		CDADEB812094AD9E0090494B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EB640999658FD8D4D91459 /* Pods-GIPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84LQ37T2QF;
+				INFOPLIST_FILE = GIPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmilkyway.GIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDADEB4A2094AD9B0090494B /* Build configuration list for PBXProject "GIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDADEB772094AD9E0090494B /* Debug */,
+				CDADEB782094AD9E0090494B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDADEB792094AD9E0090494B /* Build configuration list for PBXNativeTarget "GIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDADEB7A2094AD9E0090494B /* Debug */,
+				CDADEB7B2094AD9E0090494B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDADEB7C2094AD9E0090494B /* Build configuration list for PBXNativeTarget "GIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDADEB7D2094AD9E0090494B /* Debug */,
+				CDADEB7E2094AD9E0090494B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDADEB7F2094AD9E0090494B /* Build configuration list for PBXNativeTarget "GIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDADEB802094AD9E0090494B /* Debug */,
+				CDADEB812094AD9E0090494B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDADEB472094AD9B0090494B /* Project object */;
+}
